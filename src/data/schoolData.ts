@@ -27,9 +27,11 @@ export const reasons = [
   { title: "Supportive Environment", text: "Creating a safe and welcoming environment for students.", icon: HeartHandshake },
 ];
 
-export const academicStages = ["Primary School", "Middle School", "Secondary School"].map((title, index) => ({
-  title, text: "[Add official information]", icon: [BookOpen, BrainCircuit, GraduationCap][index],
-}));
+export const academicStages = [
+  { title: "Primary School", text: "[Add official information]", icon: BookOpen },
+  { title: "Middle School", text: "[Add official information]", icon: BrainCircuit },
+  { title: "Secondary School", text: "[Add official information]", icon: GraduationCap },
+];
 
 export const facilities = [
   { title: "Smart Classrooms", icon: Monitor, image: learningImage },
